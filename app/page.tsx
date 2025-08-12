@@ -1,8 +1,9 @@
 import React from "react";
+import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
-    <div>
+    <div className="p-10 ">
       <h2 className=" text-xl font-semibold">Home</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iure
@@ -12,6 +13,7 @@ const Home = () => {
         corporis, dolor iusto ipsum esse veritatis, molestiae, mollitia illum
         exercitationem.
       </p>
+      <Button> Check it out </Button>
     </div>
   );
 };
